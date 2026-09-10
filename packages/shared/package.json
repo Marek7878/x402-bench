@@ -1,0 +1,17 @@
+{
+  "name": "@x402-bench/shared",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "description": "Types and constants shared by the x402-bench seller, buyer, and report",
+  "exports": {
+    ".": "./src/index.ts"
+  },
+  "types": "./src/index.ts",
+  "scripts": {
+    "typecheck": "tsc -p tsconfig.json"
+  },
+  "devDependencies": {
+    "typescript": "~5.9.0"
+  }
+}

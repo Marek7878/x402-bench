@@ -1,0 +1,33 @@
+{
+  "name": "x402-bench",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Bench harness for measuring the x402 payment protocol in isolation (Prosus AI Engineering)",
+  "type": "module",
+  "packageManager": "pnpm@9.15.9",
+  "engines": {
+    "node": ">=22"
+  },
+  "scripts": {
+    "dev": "pnpm --filter @x402-bench/seller dev",
+    "deploy": "pnpm --filter @x402-bench/seller deploy",
+    "tail": "pnpm --filter @x402-bench/seller tail",
+    "wallet": "pnpm --filter @x402-bench/buyer wallet",
+    "permit2": "pnpm --filter @x402-bench/buyer permit2",
+    "buyer": "pnpm --filter @x402-bench/buyer run-one",
+    "authorize": "pnpm --filter @x402-bench/buyer authorize",
+    "settle": "pnpm --filter @x402-bench/buyer settle",
+    "abuse": "pnpm --filter @x402-bench/buyer abuse",
+    "load": "pnpm --filter @x402-bench/buyer load",
+    "report": "tsx scripts/report.ts",
+    "typecheck": "pnpm -r --workspace-concurrency=1 typecheck && tsc -p tsconfig.scripts.json",
+    "facilitators": "pnpm --filter @x402-bench/seller facilitators",
+    "clients": "pnpm --filter @x402-bench/buyer clients",
+    "gas": "pnpm --filter @x402-bench/buyer gas"
+  },
+  "devDependencies": {
+    "@types/node": "^22.18.0",
+    "tsx": "^4.20.0",
+    "typescript": "~5.9.0"
+  }
+}

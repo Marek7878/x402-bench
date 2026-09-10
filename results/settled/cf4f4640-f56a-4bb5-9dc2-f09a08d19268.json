@@ -1,0 +1,78 @@
+{
+  "requestId": "cf4f4640-f56a-4bb5-9dc2-f09a08d19268",
+  "url": "https://x402-bench-seller.jetskibay.workers.dev/paid/upto",
+  "authorizedAt": "2026-09-07T15:38:26.290Z",
+  "t1Ms": 18.02,
+  "t2Ms": 0.81,
+  "scheme": "upto",
+  "amount": "10000",
+  "maxTimeoutSeconds": 172800,
+  "expectedDeadline": "2026-09-09T15:38:26.290Z",
+  "paymentRequired": {
+    "x402Version": 2,
+    "error": "Payment required",
+    "resource": {
+      "url": "https://x402-bench-seller.jetskibay.workers.dev/paid/upto",
+      "description": "x402-bench: fixed 1 KiB payload behind an upto authorization; ?charge= sets the settled amount",
+      "mimeType": "application/json"
+    },
+    "accepts": [
+      {
+        "scheme": "upto",
+        "network": "eip155:84532",
+        "amount": "10000",
+        "asset": "0x036CbD53842c5426634e7929541eC2318f3dCF7e",
+        "payTo": "0xaa049DcCd10e6F499D85fC4c12Ca673A6e0c6F82",
+        "maxTimeoutSeconds": 172800,
+        "extra": {
+          "name": "USDC",
+          "version": "2",
+          "assetTransferMethod": "permit2",
+          "facilitatorAddress": "0xd407e409E34E0b9afb99EcCeb609bDbcD5e7f1bf"
+        }
+      }
+    ]
+  },
+  "paymentPayload": {
+    "x402Version": 2,
+    "payload": {
+      "signature": "0x61abda092a52f10475f9bee5abe483e313580e70fc404737dd9b3ef5f57c7f8667b8e8bcb21f28d34393c56db18ac0f398e6c8e3a62a1272f61fd669cbe9d41a1b",
+      "permit2Authorization": {
+        "from": "0xC7C221236F48B510be4Db4511D093bdbf32916E1",
+        "permitted": {
+          "token": "0x036CbD53842c5426634e7929541eC2318f3dCF7e",
+          "amount": "10000"
+        },
+        "spender": "0x4020A4f3b7b90ccA423B9fabCc0CE57C6C240002",
+        "nonce": "4303324908176077174439547377211961516642905699776073676816963552723335975185",
+        "deadline": "1788968306",
+        "witness": {
+          "to": "0xaa049DcCd10e6F499D85fC4c12Ca673A6e0c6F82",
+          "facilitator": "0xd407e409E34E0b9afb99EcCeb609bDbcD5e7f1bf",
+          "validAfter": "0"
+        }
+      }
+    },
+    "resource": {
+      "url": "https://x402-bench-seller.jetskibay.workers.dev/paid/upto",
+      "description": "x402-bench: fixed 1 KiB payload behind an upto authorization; ?charge= sets the settled amount",
+      "mimeType": "application/json"
+    },
+    "accepted": {
+      "scheme": "upto",
+      "network": "eip155:84532",
+      "amount": "10000",
+      "asset": "0x036CbD53842c5426634e7929541eC2318f3dCF7e",
+      "payTo": "0xaa049DcCd10e6F499D85fC4c12Ca673A6e0c6F82",
+      "maxTimeoutSeconds": 172800,
+      "extra": {
+        "name": "USDC",
+        "version": "2",
+        "assetTransferMethod": "permit2",
+        "facilitatorAddress": "0xd407e409E34E0b9afb99EcCeb609bDbcD5e7f1bf"
+      }
+    }
+  },
+  "buyer": "0xC7C221236F48B510be4Db4511D093bdbf32916E1",
+  "network": "eip155:84532"
+}

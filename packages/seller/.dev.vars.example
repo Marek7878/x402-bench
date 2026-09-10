@@ -1,0 +1,12 @@
+# Local secrets for `wrangler dev`. Copy to .dev.vars (gitignored).
+# In production use `wrangler secret put PAY_TO`.
+
+# Address that receives payments. Use a dedicated test wallet, not a personal one.
+PAY_TO=0x0000000000000000000000000000000000000000
+
+# Optional facilitator auth, needed for the CDP facilitator on mainnet (Suites C1, G1, I).
+# FACILITATOR_AUTH_HEADER=Authorization
+# FACILITATOR_AUTH_VALUE=Bearer <token>
+
+# Local only: honour the x-bench-fault header for Suite E. The deployed Worker has it off.
+BENCH_FAULTS_ENABLED=true

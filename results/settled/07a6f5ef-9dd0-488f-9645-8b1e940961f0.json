@@ -1,0 +1,78 @@
+{
+  "requestId": "07a6f5ef-9dd0-488f-9645-8b1e940961f0",
+  "url": "http://localhost:8787/paid/upto",
+  "authorizedAt": "2026-09-07T13:15:03.770Z",
+  "t1Ms": 31.33,
+  "t2Ms": 4.51,
+  "scheme": "upto",
+  "amount": "10000",
+  "maxTimeoutSeconds": 172800,
+  "expectedDeadline": "2026-09-09T13:15:03.770Z",
+  "paymentRequired": {
+    "x402Version": 2,
+    "error": "Payment required",
+    "resource": {
+      "url": "http://localhost:8787/paid/upto",
+      "description": "x402-bench: fixed 1 KiB payload behind an upto authorization; ?charge= sets the settled amount",
+      "mimeType": "application/json"
+    },
+    "accepts": [
+      {
+        "scheme": "upto",
+        "network": "eip155:84532",
+        "amount": "10000",
+        "asset": "0x036CbD53842c5426634e7929541eC2318f3dCF7e",
+        "payTo": "0xaa049DcCd10e6F499D85fC4c12Ca673A6e0c6F82",
+        "maxTimeoutSeconds": 172800,
+        "extra": {
+          "name": "USDC",
+          "version": "2",
+          "assetTransferMethod": "permit2",
+          "facilitatorAddress": "0xd407e409E34E0b9afb99EcCeb609bDbcD5e7f1bf"
+        }
+      }
+    ]
+  },
+  "paymentPayload": {
+    "x402Version": 2,
+    "payload": {
+      "signature": "0x90b3049a04d997fda6cea7ad78c21f1389d200b440c2fdf74bd0b0dbf79fb34c43da7743cf20a3ed3a4a5018d4e82448acdc9af4140191d3226755a428e7d4c21c",
+      "permit2Authorization": {
+        "from": "0xC7C221236F48B510be4Db4511D093bdbf32916E1",
+        "permitted": {
+          "token": "0x036CbD53842c5426634e7929541eC2318f3dCF7e",
+          "amount": "10000"
+        },
+        "spender": "0x4020A4f3b7b90ccA423B9fabCc0CE57C6C240002",
+        "nonce": "75512673535233967908657381233927573953431845558873584564906425159636846544359",
+        "deadline": "1788959703",
+        "witness": {
+          "to": "0xaa049DcCd10e6F499D85fC4c12Ca673A6e0c6F82",
+          "facilitator": "0xd407e409E34E0b9afb99EcCeb609bDbcD5e7f1bf",
+          "validAfter": "0"
+        }
+      }
+    },
+    "resource": {
+      "url": "http://localhost:8787/paid/upto",
+      "description": "x402-bench: fixed 1 KiB payload behind an upto authorization; ?charge= sets the settled amount",
+      "mimeType": "application/json"
+    },
+    "accepted": {
+      "scheme": "upto",
+      "network": "eip155:84532",
+      "amount": "10000",
+      "asset": "0x036CbD53842c5426634e7929541eC2318f3dCF7e",
+      "payTo": "0xaa049DcCd10e6F499D85fC4c12Ca673A6e0c6F82",
+      "maxTimeoutSeconds": 172800,
+      "extra": {
+        "name": "USDC",
+        "version": "2",
+        "assetTransferMethod": "permit2",
+        "facilitatorAddress": "0xd407e409E34E0b9afb99EcCeb609bDbcD5e7f1bf"
+      }
+    }
+  },
+  "buyer": "0xC7C221236F48B510be4Db4511D093bdbf32916E1",
+  "network": "eip155:84532"
+}

@@ -1,0 +1,29 @@
+{
+  "name": "@x402-bench/seller",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "description": "x402-bench seller: a Cloudflare Worker that gates fixed payloads behind x402 payments and records phase timings",
+  "scripts": {
+    "dev": "wrangler dev",
+    "deploy": "wrangler deploy",
+    "tail": "wrangler tail --format json",
+    "typecheck": "tsc -p tsconfig.json",
+    "facilitators": "node facilitators.mjs"
+  },
+  "dependencies": {
+    "@coinbase/x402": "^2.1.0",
+    "@x402-bench/shared": "workspace:*",
+    "@x402/core": "~2.25.0",
+    "@x402/evm": "~2.25.0",
+    "@x402/extensions": "~2.25.0",
+    "@x402/hono": "~2.25.0",
+    "hono": "^4.13.0"
+  },
+  "devDependencies": {
+    "@cloudflare/workers-types": "^5.20260907.1",
+    "@types/node": "^22.18.0",
+    "typescript": "~5.9.0",
+    "wrangler": "^4.129.0"
+  }
+}

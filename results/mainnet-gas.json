@@ -1,0 +1,1287 @@
+{
+ "fetchedAt": "2026-09-09T12:08:29.588Z",
+ "ethUsd": 2503.565,
+ "rows": [
+  {
+   "test": "G1-mainnet",
+   "requestId": "11b67282-0f73-4574-9ffa-77b4875c966b",
+   "startedAt": "2026-09-08T16:02:00.498Z",
+   "tx": "0xd7a6133ef7f9047b8f6000a08e0df7719cef38a7c32e559d667730c0f6510944",
+   "status": "success",
+   "block": 51046988,
+   "gasUsed": 103342,
+   "effectiveGasPriceGwei": 0.014581888,
+   "l2FeeEth": 0.000001506921469696,
+   "l1FeeEth": 1.0954385802e-8,
+   "totalFeeEth": 0.000001517875855498,
+   "gasPayer": "0x64cc42b1ce598e3abcfbb64df4688521ddbf1f0a",
+   "transfers": [
+    {
+     "from": "0xc7c221236f48b510be4db4511d093bdbf32916e1",
+     "to": "0x2d195b77caef73d917cb215b8f4ac27f95d3b573",
+     "usdc": "0.001"
+    }
+   ]
+  },
+  {
+   "test": "C1-evening",
+   "requestId": "b2ffefab-a642-4c9e-b2cd-eb99154a9e72",
+   "startedAt": "2026-09-08T16:02:21.505Z",
+   "tx": "0x5b911bd413e6344622c0b840a4e80689a77d06c1d460ca1f7d54e40c89412f83",
+   "status": "success",
+   "block": 51046999,
+   "gasUsed": 86262,
+   "effectiveGasPriceGwei": 0.017322682,
+   "l2FeeEth": 0.000001494289194684,
+   "l1FeeEth": 1.1100080312e-8,
+   "totalFeeEth": 0.000001505389274996,
+   "gasPayer": "0x8cda367232d78c067116e3260da881d2da8ffa39",
+   "transfers": [
+    {
+     "from": "0xc7c221236f48b510be4db4511d093bdbf32916e1",
+     "to": "0x2d195b77caef73d917cb215b8f4ac27f95d3b573",
+     "usdc": "0.001"
+    }
+   ]
+  },
+  {
+   "test": "C1-evening",
+   "requestId": "f3864614-f21b-4f45-9e1f-ef0e6b0790e9",
+   "startedAt": "2026-09-08T16:02:23.407Z",
+   "tx": "0x55039c0bacc8d4db6f8182d2874fda5d4d5401e193da5f6a5de642e396b2d4a3",
+   "status": "success",
+   "block": 51046999,
+   "gasUsed": 86242,
+   "effectiveGasPriceGwei": 0.017629462,
+   "l2FeeEth": 0.000001520400061804,
+   "l1FeeEth": 1.1100080312e-8,
+   "totalFeeEth": 0.000001531500142116,
+   "gasPayer": "0x67b9ce703d9ce658d7c4ac3c289cea112fe662af",
+   "transfers": [
+    {
+     "from": "0xc7c221236f48b510be4db4511d093bdbf32916e1",
+     "to": "0x2d195b77caef73d917cb215b8f4ac27f95d3b573",
+     "usdc": "0.001"
+    }
+   ]
+  },
+  {
+   "test": "C1-evening",
+   "requestId": "9b5216a6-e5a0-454f-b08c-81c8e880487b",
+   "startedAt": "2026-09-08T16:02:24.411Z",
+   "tx": "0xdddc83816b1aaa4ee7e1a3d6453e5226bc614c10830d35e6664aa8c2707f30dc",
+   "status": "success",
+   "block": 51047000,
+   "gasUsed": 86262,
+   "effectiveGasPriceGwei": 0.018711788,
+   "l2FeeEth": 0.000001614116256456,
+   "l1FeeEth": 1.1100080312e-8,
+   "totalFeeEth": 0.000001625216336768,
+   "gasPayer": "0x68a96f41ff1e9f2e7b591a931a4ad224e7c07863",
+   "transfers": [
+    {
+     "from": "0xc7c221236f48b510be4db4511d093bdbf32916e1",
+     "to": "0x2d195b77caef73d917cb215b8f4ac27f95d3b573",
+     "usdc": "0.001"
+    }
+   ]
+  },
+  {
+   "test": "C1-evening",
+   "requestId": "3520e0fd-0460-4a45-bf0b-56edb2112945",
+   "startedAt": "2026-09-08T16:02:25.572Z",
+   "tx": "0xbe37fea6fc36e964c36dde2ca1c775190fc861f932b857bc76e8d0c420d58452",
+   "status": "success",
+   "block": 51047000,
+   "gasUsed": 86242,
+   "effectiveGasPriceGwei": 0.018711788,
+   "l2FeeEth": 0.000001613742020696,
+   "l1FeeEth": 1.1100080312e-8,
+   "totalFeeEth": 0.000001624842101008,
+   "gasPayer": "0xa32ccda98ba7529705a059bd2d213da8de10d101",
+   "transfers": [
+    {
+     "from": "0xc7c221236f48b510be4db4511d093bdbf32916e1",
+     "to": "0x2d195b77caef73d917cb215b8f4ac27f95d3b573",
+     "usdc": "0.001"
+    }
+   ]
+  },
+  {
+   "test": "C1-evening",
+   "requestId": "f8230901-74ca-4dd0-b87b-b378bd1bfd43",
+   "startedAt": "2026-09-08T16:02:26.664Z",
+   "tx": "0xfc08eb4eff0361a511796b87478b2be50dea3138dec79abb446101a58934a2f1",
+   "status": "success",
+   "block": 51047001,
+   "gasUsed": 86242,
+   "effectiveGasPriceGwei": 0.018730614,
+   "l2FeeEth": 0.000001615365612588,
+   "l1FeeEth": 1.1100080312e-8,
+   "totalFeeEth": 0.0000016264656929,
+   "gasPayer": "0x625d8a65134079f8faaac39a7947c73d93c6ac39",
+   "transfers": [
+    {
+     "from": "0xc7c221236f48b510be4db4511d093bdbf32916e1",
+     "to": "0x2d195b77caef73d917cb215b8f4ac27f95d3b573",
+     "usdc": "0.001"
+    }
+   ]
+  },
+  {
+   "test": "C1-evening",
+   "requestId": "e4140742-e17d-485e-b41e-fe3453fee393",
+   "startedAt": "2026-09-08T16:02:27.482Z",
+   "tx": "0x10c3cb5cede2d15753a42332839ae48723915f7342471f988ede97e7d2103c12",
+   "status": "success",
+   "block": 51047001,
+   "gasUsed": 86226,
+   "effectiveGasPriceGwei": 0.018730614,
+   "l2FeeEth": 0.000001615065922764,
+   "l1FeeEth": 1.1100080312e-8,
+   "totalFeeEth": 0.000001626166003076,
+   "gasPayer": "0xe74817f4cdc15844314812b2271276e64e890fae",
+   "transfers": [
+    {
+     "from": "0xc7c221236f48b510be4db4511d093bdbf32916e1",
+     "to": "0x2d195b77caef73d917cb215b8f4ac27f95d3b573",
+     "usdc": "0.001"
+    }
+   ]
+  },
+  {
+   "test": "C1-evening",
+   "requestId": "1e629bfe-7079-4aa2-ba0c-a2ee5e737074",
+   "startedAt": "2026-09-08T16:02:28.578Z",
+   "tx": "0x4b8d75e6263c5a7eed2477822b29cdec63bc4387c33bc4854f89696c100cb405",
+   "status": "success",
+   "block": 51047002,
+   "gasUsed": 86226,
+   "effectiveGasPriceGwei": 0.018751218,
+   "l2FeeEth": 0.000001616842523268,
+   "l1FeeEth": 1.1100080312e-8,
+   "totalFeeEth": 0.00000162794260358,
+   "gasPayer": "0x93f6601151ccb08f333ab4b1cccfb1e188c0be44",
+   "transfers": [
+    {
+     "from": "0xc7c221236f48b510be4db4511d093bdbf32916e1",
+     "to": "0x2d195b77caef73d917cb215b8f4ac27f95d3b573",
+     "usdc": "0.001"
+    }
+   ]
+  },
+  {
+   "test": "C1-evening",
+   "requestId": "0d23d42e-11bd-4fd2-91e3-14883ae3bf31",
+   "startedAt": "2026-09-08T16:02:29.840Z",
+   "tx": "0x2e654081a72b0bd79a4a6f8bbbf4a409bfaf160cd033a32448d63fe348f49eb2",
+   "status": "success",
+   "block": 51047002,
+   "gasUsed": 86250,
+   "effectiveGasPriceGwei": 0.018751218,
+   "l2FeeEth": 0.0000016172925525,
+   "l1FeeEth": 1.1100080312e-8,
+   "totalFeeEth": 0.000001628392632812,
+   "gasPayer": "0xe72f0af4cf41356d433723547f1412ca27fbb1b8",
+   "transfers": [
+    {
+     "from": "0xc7c221236f48b510be4db4511d093bdbf32916e1",
+     "to": "0x2d195b77caef73d917cb215b8f4ac27f95d3b573",
+     "usdc": "0.001"
+    }
+   ]
+  },
+  {
+   "test": "C1-evening",
+   "requestId": "0ed6bf23-5c2b-4bad-88f4-5f8b15d056b8",
+   "startedAt": "2026-09-08T16:02:30.966Z",
+   "tx": "0x724858227ff9528b4fe5ebaa426f97c5173fd2f224a75cd42418b3e121719100",
+   "status": "success",
+   "block": 51047003,
+   "gasUsed": 86250,
+   "effectiveGasPriceGwei": 0.018546968,
+   "l2FeeEth": 0.00000159967599,
+   "l1FeeEth": 9.673729086e-9,
+   "totalFeeEth": 0.000001609349719086,
+   "gasPayer": "0x14fda13953fc30428938e6bf950d036e77214e52",
+   "transfers": [
+    {
+     "from": "0xc7c221236f48b510be4db4511d093bdbf32916e1",
+     "to": "0x2d195b77caef73d917cb215b8f4ac27f95d3b573",
+     "usdc": "0.001"
+    }
+   ]
+  },
+  {
+   "test": "C1-evening",
+   "requestId": "1274017b-6779-48af-93a8-e28b7545fc62",
+   "startedAt": "2026-09-08T16:02:31.877Z",
+   "tx": "0x96dc52df8384969fd793c34298378313140a4596064f568256001bc907d8e41e",
+   "status": "success",
+   "block": 51047003,
+   "gasUsed": 86242,
+   "effectiveGasPriceGwei": 0.018774853,
+   "l2FeeEth": 0.000001619180872426,
+   "l1FeeEth": 9.673729086e-9,
+   "totalFeeEth": 0.000001628854601512,
+   "gasPayer": "0x772003a2e9c2ccc8af956870a37a66f64f8cec38",
+   "transfers": [
+    {
+     "from": "0xc7c221236f48b510be4db4511d093bdbf32916e1",
+     "to": "0x2d195b77caef73d917cb215b8f4ac27f95d3b573",
+     "usdc": "0.001"
+    }
+   ]
+  },
+  {
+   "test": "C1-evening",
+   "requestId": "7699eeb4-d5a7-4b80-8ffa-4424a3b7399a",
+   "startedAt": "2026-09-08T16:02:32.912Z",
+   "tx": "0xb7dac65ad11f15c306be07f75851c21d9c688913a3e452e470f4188eeeb2df06",
+   "status": "success",
+   "block": 51047004,
+   "gasUsed": 86250,
+   "effectiveGasPriceGwei": 0.018770783,
+   "l2FeeEth": 0.00000161898003375,
+   "l1FeeEth": 9.673729086e-9,
+   "totalFeeEth": 0.000001628653762836,
+   "gasPayer": "0x68efafe862d89ce66dd3d7b07d5a3747a0871164",
+   "transfers": [
+    {
+     "from": "0xc7c221236f48b510be4db4511d093bdbf32916e1",
+     "to": "0x2d195b77caef73d917cb215b8f4ac27f95d3b573",
+     "usdc": "0.001"
+    }
+   ]
+  },
+  {
+   "test": "C1-evening",
+   "requestId": "fdf87349-9f1d-4751-9abd-98bd7f124eb9",
+   "startedAt": "2026-09-08T16:02:34.037Z",
+   "tx": "0xb967e2bc0ae44babc0d3ee20eef9232f70328cfcb89b876cf854e8438ffeff75",
+   "status": "success",
+   "block": 51047005,
+   "gasUsed": 86242,
+   "effectiveGasPriceGwei": 0.018746569,
+   "l2FeeEth": 0.000001616741603698,
+   "l1FeeEth": 9.673729086e-9,
+   "totalFeeEth": 0.000001626415332784,
+   "gasPayer": "0xa32ccda98ba7529705a059bd2d213da8de10d101",
+   "transfers": [
+    {
+     "from": "0xc7c221236f48b510be4db4511d093bdbf32916e1",
+     "to": "0x2d195b77caef73d917cb215b8f4ac27f95d3b573",
+     "usdc": "0.001"
+    }
+   ]
+  },
+  {
+   "test": "C1-evening",
+   "requestId": "057dc1d2-0069-48ce-b848-f500acedadc7",
+   "startedAt": "2026-09-08T16:02:35.572Z",
+   "tx": "0x3946def5885ac591aebecdae1556d48fa906b7fd7af2f4e6601a1b5c56ea457d",
+   "status": "success",
+   "block": 51047005,
+   "gasUsed": 86242,
+   "effectiveGasPriceGwei": 0.018746569,
+   "l2FeeEth": 0.000001616741603698,
+   "l1FeeEth": 9.673729086e-9,
+   "totalFeeEth": 0.000001626415332784,
+   "gasPayer": "0x59b7ebc67a3d627fabaf06768c818638452ae704",
+   "transfers": [
+    {
+     "from": "0xc7c221236f48b510be4db4511d093bdbf32916e1",
+     "to": "0x2d195b77caef73d917cb215b8f4ac27f95d3b573",
+     "usdc": "0.001"
+    }
+   ]
+  },
+  {
+   "test": "C1-evening",
+   "requestId": "9c956432-f29b-47e5-8541-18daf9805ab6",
+   "startedAt": "2026-09-08T16:02:36.588Z",
+   "tx": "0x362cfc88b388b588899df4055c19366c33f51b50347532e04214f5823ade20aa",
+   "status": "success",
+   "block": 51047006,
+   "gasUsed": 86230,
+   "effectiveGasPriceGwei": 0.018731466,
+   "l2FeeEth": 0.00000161521431318,
+   "l1FeeEth": 9.673729086e-9,
+   "totalFeeEth": 0.000001624888042266,
+   "gasPayer": "0x2a89407a98a0732b7fd578c4e156b7166540eb5a",
+   "transfers": [
+    {
+     "from": "0xc7c221236f48b510be4db4511d093bdbf32916e1",
+     "to": "0x2d195b77caef73d917cb215b8f4ac27f95d3b573",
+     "usdc": "0.001"
+    }
+   ]
+  },
+  {
+   "test": "C1-evening",
+   "requestId": "d46e2d80-bcc6-4d82-a5a3-8a38ae7f01fd",
+   "startedAt": "2026-09-08T16:02:37.868Z",
+   "tx": "0x4d8ee4767a5c1acde89eb9d3ca624d999d939468ebb5199433356a1a9b85f5ef",
+   "status": "success",
+   "block": 51047006,
+   "gasUsed": 86262,
+   "effectiveGasPriceGwei": 0.018731466,
+   "l2FeeEth": 0.000001615813720092,
+   "l1FeeEth": 9.673729086e-9,
+   "totalFeeEth": 0.000001625487449178,
+   "gasPayer": "0x97acce27d5069544480bde0f04d9f47d7422a016",
+   "transfers": [
+    {
+     "from": "0xc7c221236f48b510be4db4511d093bdbf32916e1",
+     "to": "0x2d195b77caef73d917cb215b8f4ac27f95d3b573",
+     "usdc": "0.001"
+    }
+   ]
+  },
+  {
+   "test": "C1-evening",
+   "requestId": "5abbbe2f-727b-4f88-b0c9-8820c03eae18",
+   "startedAt": "2026-09-08T16:02:38.806Z",
+   "tx": "0xa967799173cb07a653223f2c5238d82beed7301705ea541b31dfd78b79cca834",
+   "status": "success",
+   "block": 51047007,
+   "gasUsed": 86262,
+   "effectiveGasPriceGwei": 0.018714509,
+   "l2FeeEth": 0.000001614350975358,
+   "l1FeeEth": 9.673729086e-9,
+   "totalFeeEth": 0.000001624024704444,
+   "gasPayer": "0x64cc42b1ce598e3abcfbb64df4688521ddbf1f0a",
+   "transfers": [
+    {
+     "from": "0xc7c221236f48b510be4db4511d093bdbf32916e1",
+     "to": "0x2d195b77caef73d917cb215b8f4ac27f95d3b573",
+     "usdc": "0.001"
+    }
+   ]
+  },
+  {
+   "test": "C1-evening",
+   "requestId": "5de8aca2-34ee-4271-8dfe-4ae81075bb87",
+   "startedAt": "2026-09-08T16:02:39.728Z",
+   "tx": "0xa1a4a1c964d9ba3948f9c265751a724d33c6a28bcaa69a19afe832eb343ef38d",
+   "status": "success",
+   "block": 51047007,
+   "gasUsed": 86250,
+   "effectiveGasPriceGwei": 0.014964514,
+   "l2FeeEth": 0.0000012906893325,
+   "l1FeeEth": 9.673729086e-9,
+   "totalFeeEth": 0.000001300363061586,
+   "gasPayer": "0x772003a2e9c2ccc8af956870a37a66f64f8cec38",
+   "transfers": [
+    {
+     "from": "0xc7c221236f48b510be4db4511d093bdbf32916e1",
+     "to": "0x2d195b77caef73d917cb215b8f4ac27f95d3b573",
+     "usdc": "0.001"
+    }
+   ]
+  },
+  {
+   "test": "C1-evening",
+   "requestId": "7eb079cd-08a6-48fc-9daf-2854a6f5129b",
+   "startedAt": "2026-09-08T16:02:40.750Z",
+   "tx": "0x024ed645bb2812b02df6d90d3613778b66f4746856270da72e4fed636ce7d949",
+   "status": "success",
+   "block": 51047008,
+   "gasUsed": 86238,
+   "effectiveGasPriceGwei": 0.014946279,
+   "l2FeeEth": 0.000001288937208402,
+   "l1FeeEth": 9.673729086e-9,
+   "totalFeeEth": 0.000001298610937488,
+   "gasPayer": "0x42dd53906b49c202e8e934b059dc019e04634b00",
+   "transfers": [
+    {
+     "from": "0xc7c221236f48b510be4db4511d093bdbf32916e1",
+     "to": "0x2d195b77caef73d917cb215b8f4ac27f95d3b573",
+     "usdc": "0.001"
+    }
+   ]
+  },
+  {
+   "test": "C1-evening",
+   "requestId": "16c0ac8f-e820-45a5-ba1b-acc6f321e1d0",
+   "startedAt": "2026-09-08T16:02:42.110Z",
+   "tx": "0xd742a57ee2d4a6c3b237c72c4216ec3f05681644f83a04ccead5cf7133da0134",
+   "status": "success",
+   "block": 51047009,
+   "gasUsed": 86242,
+   "effectiveGasPriceGwei": 0.014896248,
+   "l2FeeEth": 0.000001284682220016,
+   "l1FeeEth": 9.563682977e-9,
+   "totalFeeEth": 0.000001294245902993,
+   "gasPayer": "0xb87e1a2cc2b4643f2892768e80e41167f17c5860",
+   "transfers": [
+    {
+     "from": "0xc7c221236f48b510be4db4511d093bdbf32916e1",
+     "to": "0x2d195b77caef73d917cb215b8f4ac27f95d3b573",
+     "usdc": "0.001"
+    }
+   ]
+  },
+  {
+   "test": "C1-evening",
+   "requestId": "88be5bec-79c6-458f-a087-5a5b3b15374e",
+   "startedAt": "2026-09-08T16:02:43.256Z",
+   "tx": "0x8e7a6a1a76b02b181c57283c910b95115ecd317aa4d31e5e4bab6dc3a0303762",
+   "status": "success",
+   "block": 51047009,
+   "gasUsed": 86230,
+   "effectiveGasPriceGwei": 0.017396243,
+   "l2FeeEth": 0.00000150007803389,
+   "l1FeeEth": 9.563682977e-9,
+   "totalFeeEth": 0.000001509641716867,
+   "gasPayer": "0xca5e87f82b3fa093800e6ad67d621a427d79c70d",
+   "transfers": [
+    {
+     "from": "0xc7c221236f48b510be4db4511d093bdbf32916e1",
+     "to": "0x2d195b77caef73d917cb215b8f4ac27f95d3b573",
+     "usdc": "0.001"
+    }
+   ]
+  },
+  {
+   "test": "C1-morning",
+   "requestId": "a982f03c-8e8e-45ea-b946-ab2cd8eaa475",
+   "startedAt": "2026-09-09T08:08:08.967Z",
+   "tx": "0x364b44b1720ed4be8e74085211941fcdd68e30bb0a73dd622cd25546264d14b0",
+   "status": "success",
+   "block": 51075973,
+   "gasUsed": 86250,
+   "effectiveGasPriceGwei": 0.00625,
+   "l2FeeEth": 5.390625e-7,
+   "l1FeeEth": 1.892110229e-9,
+   "totalFeeEth": 5.40954610229e-7,
+   "gasPayer": "0xca5e87f82b3fa093800e6ad67d621a427d79c70d",
+   "transfers": [
+    {
+     "from": "0xc7c221236f48b510be4db4511d093bdbf32916e1",
+     "to": "0x2d195b77caef73d917cb215b8f4ac27f95d3b573",
+     "usdc": "0.001"
+    }
+   ]
+  },
+  {
+   "test": "C1-morning",
+   "requestId": "6f4b6885-661f-4a73-a12c-32c4e7c674fe",
+   "startedAt": "2026-09-09T08:08:10.856Z",
+   "tx": "0x0961655d68c7e44d5e09b608800b26afed7351874ec5077b1de58e8ab68dda94",
+   "status": "success",
+   "block": 51075973,
+   "gasUsed": 86242,
+   "effectiveGasPriceGwei": 0.00625,
+   "l2FeeEth": 5.390125e-7,
+   "l1FeeEth": 1.892110229e-9,
+   "totalFeeEth": 5.40904610229e-7,
+   "gasPayer": "0x4c934c63c786157fefd990945b25ea60a0fb0205",
+   "transfers": [
+    {
+     "from": "0xc7c221236f48b510be4db4511d093bdbf32916e1",
+     "to": "0x2d195b77caef73d917cb215b8f4ac27f95d3b573",
+     "usdc": "0.001"
+    }
+   ]
+  },
+  {
+   "test": "C1-morning",
+   "requestId": "d57e496c-7b50-4259-8b5a-cf3654af0c0c",
+   "startedAt": "2026-09-09T08:08:11.765Z",
+   "tx": "0xe95b823fe6a4bfa2621f4590caf64dc1aa27d936aae97d19dc2f262fca0e2550",
+   "status": "success",
+   "block": 51075974,
+   "gasUsed": 86250,
+   "effectiveGasPriceGwei": 0.006250005,
+   "l2FeeEth": 5.3906293125e-7,
+   "l1FeeEth": 1.892110229e-9,
+   "totalFeeEth": 5.40955041479e-7,
+   "gasPayer": "0xa32ccda98ba7529705a059bd2d213da8de10d101",
+   "transfers": [
+    {
+     "from": "0xc7c221236f48b510be4db4511d093bdbf32916e1",
+     "to": "0x2d195b77caef73d917cb215b8f4ac27f95d3b573",
+     "usdc": "0.001"
+    }
+   ]
+  },
+  {
+   "test": "C1-morning",
+   "requestId": "e42bdeb1-2cc4-489e-b073-7e430974b6b8",
+   "startedAt": "2026-09-09T08:08:12.732Z",
+   "tx": "0x0a6b0f6ac94aacff20ffcac4ac3bf3e2ee56a759d49d31e3e2235d44bd953b89",
+   "status": "success",
+   "block": 51075974,
+   "gasUsed": 86242,
+   "effectiveGasPriceGwei": 0.00750001,
+   "l2FeeEth": 6.4681586242e-7,
+   "l1FeeEth": 1.892110229e-9,
+   "totalFeeEth": 6.48707972649e-7,
+   "gasPayer": "0xb87e1a2cc2b4643f2892768e80e41167f17c5860",
+   "transfers": [
+    {
+     "from": "0xc7c221236f48b510be4db4511d093bdbf32916e1",
+     "to": "0x2d195b77caef73d917cb215b8f4ac27f95d3b573",
+     "usdc": "0.001"
+    }
+   ]
+  },
+  {
+   "test": "C1-morning",
+   "requestId": "53b4bea5-619d-4ecb-9dd0-024268c54046",
+   "startedAt": "2026-09-09T08:08:13.966Z",
+   "tx": "0x6d073416eadb3ac1c022e44187dd762fdacc27ba20f04e5d5c5d9015a9e01fe6",
+   "status": "success",
+   "block": 51075975,
+   "gasUsed": 86262,
+   "effectiveGasPriceGwei": 0.00750001,
+   "l2FeeEth": 6.4696586262e-7,
+   "l1FeeEth": 1.869648922e-9,
+   "totalFeeEth": 6.48835511542e-7,
+   "gasPayer": "0x68efafe862d89ce66dd3d7b07d5a3747a0871164",
+   "transfers": [
+    {
+     "from": "0xc7c221236f48b510be4db4511d093bdbf32916e1",
+     "to": "0x2d195b77caef73d917cb215b8f4ac27f95d3b573",
+     "usdc": "0.001"
+    }
+   ]
+  },
+  {
+   "test": "C1-morning",
+   "requestId": "145af14d-7abc-4b87-b957-8986968d556c",
+   "startedAt": "2026-09-09T08:08:14.934Z",
+   "tx": "0xfb3edc840ccb2ef9c85e3b9f878d0e2cca9bfc38dc0c591cd6a506a752ab8ca1",
+   "status": "success",
+   "block": 51075975,
+   "gasUsed": 86242,
+   "effectiveGasPriceGwei": 0.00750001,
+   "l2FeeEth": 6.4681586242e-7,
+   "l1FeeEth": 1.869648922e-9,
+   "totalFeeEth": 6.48685511342e-7,
+   "gasPayer": "0x8cda367232d78c067116e3260da881d2da8ffa39",
+   "transfers": [
+    {
+     "from": "0xc7c221236f48b510be4db4511d093bdbf32916e1",
+     "to": "0x2d195b77caef73d917cb215b8f4ac27f95d3b573",
+     "usdc": "0.001"
+    }
+   ]
+  },
+  {
+   "test": "C1-morning",
+   "requestId": "23082b91-a1ea-440f-bdaa-c3767330c152",
+   "startedAt": "2026-09-09T08:08:15.691Z",
+   "tx": "0xab43211433874a80b0e190da7d500cd4fee27af7b2f1f66898cb5ae3a829b207",
+   "status": "success",
+   "block": 51075976,
+   "gasUsed": 86262,
+   "effectiveGasPriceGwei": 0.00750001,
+   "l2FeeEth": 6.4696586262e-7,
+   "l1FeeEth": 1.869648922e-9,
+   "totalFeeEth": 6.48835511542e-7,
+   "gasPayer": "0x59b7ebc67a3d627fabaf06768c818638452ae704",
+   "transfers": [
+    {
+     "from": "0xc7c221236f48b510be4db4511d093bdbf32916e1",
+     "to": "0x2d195b77caef73d917cb215b8f4ac27f95d3b573",
+     "usdc": "0.001"
+    }
+   ]
+  },
+  {
+   "test": "C1-morning",
+   "requestId": "653f3457-8901-49aa-8245-c51c99b511a4",
+   "startedAt": "2026-09-09T08:08:16.924Z",
+   "tx": "0x8448f2cb5d8181068416e6216bb8e064870eec16e91c330bb44f6c594ea17ec7",
+   "status": "success",
+   "block": 51075976,
+   "gasUsed": 86262,
+   "effectiveGasPriceGwei": 0.00750001,
+   "l2FeeEth": 6.4696586262e-7,
+   "l1FeeEth": 1.869648922e-9,
+   "totalFeeEth": 6.48835511542e-7,
+   "gasPayer": "0x772003a2e9c2ccc8af956870a37a66f64f8cec38",
+   "transfers": [
+    {
+     "from": "0xc7c221236f48b510be4db4511d093bdbf32916e1",
+     "to": "0x2d195b77caef73d917cb215b8f4ac27f95d3b573",
+     "usdc": "0.001"
+    }
+   ]
+  },
+  {
+   "test": "C1-morning",
+   "requestId": "5a2498ac-924b-4669-a7a2-38c8beac55a9",
+   "startedAt": "2026-09-09T08:08:17.873Z",
+   "tx": "0xad046c096990bf0e446605df7e8c26beab47e4743b88fd6f9a1343c4f38ea3f2",
+   "status": "success",
+   "block": 51075977,
+   "gasUsed": 86262,
+   "effectiveGasPriceGwei": 0.006250005,
+   "l2FeeEth": 5.3913793131e-7,
+   "l1FeeEth": 1.869648922e-9,
+   "totalFeeEth": 5.41007580232e-7,
+   "gasPayer": "0x8cda367232d78c067116e3260da881d2da8ffa39",
+   "transfers": [
+    {
+     "from": "0xc7c221236f48b510be4db4511d093bdbf32916e1",
+     "to": "0x2d195b77caef73d917cb215b8f4ac27f95d3b573",
+     "usdc": "0.001"
+    }
+   ]
+  },
+  {
+   "test": "C1-morning",
+   "requestId": "778f515e-d851-4c43-a9b9-52b8a5517bba",
+   "startedAt": "2026-09-09T08:08:18.961Z",
+   "tx": "0x0acbf27a746302fc1c2050fb1f6bbfa1c4d23ab801ada3e147289b0edd3da8e9",
+   "status": "success",
+   "block": 51075977,
+   "gasUsed": 86242,
+   "effectiveGasPriceGwei": 0.005443745,
+   "l2FeeEth": 4.6947945629e-7,
+   "l1FeeEth": 1.869648922e-9,
+   "totalFeeEth": 4.71349105212e-7,
+   "gasPayer": "0x93f6601151ccb08f333ab4b1cccfb1e188c0be44",
+   "transfers": [
+    {
+     "from": "0xc7c221236f48b510be4db4511d093bdbf32916e1",
+     "to": "0x2d195b77caef73d917cb215b8f4ac27f95d3b573",
+     "usdc": "0.001"
+    }
+   ]
+  },
+  {
+   "test": "C1-morning",
+   "requestId": "751d4bb8-6c0c-4448-8c82-541cb289600e",
+   "startedAt": "2026-09-09T08:08:20.017Z",
+   "tx": "0x8cebcad7872a760f7b534fb6957399d765ffce8abd75b8216d122f38e4eb24ca",
+   "status": "success",
+   "block": 51075978,
+   "gasUsed": 86242,
+   "effectiveGasPriceGwei": 0.005443745,
+   "l2FeeEth": 4.6947945629e-7,
+   "l1FeeEth": 1.869648922e-9,
+   "totalFeeEth": 4.71349105212e-7,
+   "gasPayer": "0x772003a2e9c2ccc8af956870a37a66f64f8cec38",
+   "transfers": [
+    {
+     "from": "0xc7c221236f48b510be4db4511d093bdbf32916e1",
+     "to": "0x2d195b77caef73d917cb215b8f4ac27f95d3b573",
+     "usdc": "0.001"
+    }
+   ]
+  },
+  {
+   "test": "C1-morning",
+   "requestId": "522f30ca-e2d1-4821-b344-f4b6d4b91106",
+   "startedAt": "2026-09-09T08:08:20.943Z",
+   "tx": "0x55a935e752557494e27fec1bf8077c6dd387d96aaa4346559807761c1bfe8ed3",
+   "status": "success",
+   "block": 51075978,
+   "gasUsed": 86262,
+   "effectiveGasPriceGwei": 0.005443745,
+   "l2FeeEth": 4.6958833119e-7,
+   "l1FeeEth": 1.869648922e-9,
+   "totalFeeEth": 4.71457980112e-7,
+   "gasPayer": "0x625d8a65134079f8faaac39a7947c73d93c6ac39",
+   "transfers": [
+    {
+     "from": "0xc7c221236f48b510be4db4511d093bdbf32916e1",
+     "to": "0x2d195b77caef73d917cb215b8f4ac27f95d3b573",
+     "usdc": "0.001"
+    }
+   ]
+  },
+  {
+   "test": "C1-morning",
+   "requestId": "6d13bf1b-092e-4831-adb9-7a260194a2b9",
+   "startedAt": "2026-09-09T08:08:21.899Z",
+   "tx": "0x4cebf937828551ef5883826df396e2f04ce54b03bbb2ef767ce3a4fd1d5636d2",
+   "status": "success",
+   "block": 51075979,
+   "gasUsed": 86242,
+   "effectiveGasPriceGwei": 0.005443745,
+   "l2FeeEth": 4.6947945629e-7,
+   "l1FeeEth": 1.869648922e-9,
+   "totalFeeEth": 4.71349105212e-7,
+   "gasPayer": "0x68a96f41ff1e9f2e7b591a931a4ad224e7c07863",
+   "transfers": [
+    {
+     "from": "0xc7c221236f48b510be4db4511d093bdbf32916e1",
+     "to": "0x2d195b77caef73d917cb215b8f4ac27f95d3b573",
+     "usdc": "0.001"
+    }
+   ]
+  },
+  {
+   "test": "C1-morning",
+   "requestId": "30acee72-9831-447f-b498-fe8108efbbb5",
+   "startedAt": "2026-09-09T08:08:22.813Z",
+   "tx": "0xcabfbc37bd2702ecce6c8171c9a35615fddfa86304ee4baee729b36259739150",
+   "status": "success",
+   "block": 51075979,
+   "gasUsed": 86262,
+   "effectiveGasPriceGwei": 0.005443745,
+   "l2FeeEth": 4.6958833119e-7,
+   "l1FeeEth": 1.869648922e-9,
+   "totalFeeEth": 4.71457980112e-7,
+   "gasPayer": "0x2a89407a98a0732b7fd578c4e156b7166540eb5a",
+   "transfers": [
+    {
+     "from": "0xc7c221236f48b510be4db4511d093bdbf32916e1",
+     "to": "0x2d195b77caef73d917cb215b8f4ac27f95d3b573",
+     "usdc": "0.001"
+    }
+   ]
+  },
+  {
+   "test": "C1-morning",
+   "requestId": "0bf99b7c-1913-466f-9254-eb0b82f7f12c",
+   "startedAt": "2026-09-09T08:08:23.759Z",
+   "tx": "0xfbd5d54da157342d40f375099d1a8b23cf2e6bbf801ca3a0f5047542e124711a",
+   "status": "success",
+   "block": 51075980,
+   "gasUsed": 86262,
+   "effectiveGasPriceGwei": 0.005000775,
+   "l2FeeEth": 4.3137685305e-7,
+   "l1FeeEth": 1.862726623e-9,
+   "totalFeeEth": 4.33239579673e-7,
+   "gasPayer": "0x42dd53906b49c202e8e934b059dc019e04634b00",
+   "transfers": [
+    {
+     "from": "0xc7c221236f48b510be4db4511d093bdbf32916e1",
+     "to": "0x2d195b77caef73d917cb215b8f4ac27f95d3b573",
+     "usdc": "0.001"
+    }
+   ]
+  },
+  {
+   "test": "C1-morning",
+   "requestId": "2d1f1919-50fa-409c-9096-640ac9b7a76d",
+   "startedAt": "2026-09-09T08:08:24.947Z",
+   "tx": "0x593a176741fb6f46fef346a0d3566ebb55c888b51be4feb0c3b4fb87ed2e6cb0",
+   "status": "success",
+   "block": 51075980,
+   "gasUsed": 86242,
+   "effectiveGasPriceGwei": 0.005287125,
+   "l2FeeEth": 4.5597223425e-7,
+   "l1FeeEth": 1.869648922e-9,
+   "totalFeeEth": 4.57841883172e-7,
+   "gasPayer": "0x97acce27d5069544480bde0f04d9f47d7422a016",
+   "transfers": [
+    {
+     "from": "0xc7c221236f48b510be4db4511d093bdbf32916e1",
+     "to": "0x2d195b77caef73d917cb215b8f4ac27f95d3b573",
+     "usdc": "0.001"
+    }
+   ]
+  },
+  {
+   "test": "C1-morning",
+   "requestId": "feea312f-65f3-4ca3-bd9c-5f5cf6af1ac0",
+   "startedAt": "2026-09-09T08:08:25.910Z",
+   "tx": "0xe9c2586a680a36549a110151736ce8bc320792e12f45de243e5f021140351e42",
+   "status": "success",
+   "block": 51075981,
+   "gasUsed": 86242,
+   "effectiveGasPriceGwei": 0.005287125,
+   "l2FeeEth": 4.5597223425e-7,
+   "l1FeeEth": 1.869648922e-9,
+   "totalFeeEth": 4.57841883172e-7,
+   "gasPayer": "0x59b7ebc67a3d627fabaf06768c818638452ae704",
+   "transfers": [
+    {
+     "from": "0xc7c221236f48b510be4db4511d093bdbf32916e1",
+     "to": "0x2d195b77caef73d917cb215b8f4ac27f95d3b573",
+     "usdc": "0.001"
+    }
+   ]
+  },
+  {
+   "test": "C1-morning",
+   "requestId": "ef296908-509f-44c9-b2d2-2137657a4e2a",
+   "startedAt": "2026-09-09T08:08:26.914Z",
+   "tx": "0xe655ff2b472f0ecc6c834f26a28dce8917e4d448d4254bbcff377ab6842f84de",
+   "status": "success",
+   "block": 51075981,
+   "gasUsed": 86238,
+   "effectiveGasPriceGwei": 0.005287125,
+   "l2FeeEth": 4.5595108575e-7,
+   "l1FeeEth": 1.869648922e-9,
+   "totalFeeEth": 4.57820734672e-7,
+   "gasPayer": "0x97acce27d5069544480bde0f04d9f47d7422a016",
+   "transfers": [
+    {
+     "from": "0xc7c221236f48b510be4db4511d093bdbf32916e1",
+     "to": "0x2d195b77caef73d917cb215b8f4ac27f95d3b573",
+     "usdc": "0.001"
+    }
+   ]
+  },
+  {
+   "test": "C1-morning",
+   "requestId": "e09c801f-28cd-4ccb-9db1-43f745b7fd4d",
+   "startedAt": "2026-09-09T08:08:27.953Z",
+   "tx": "0xd6699a885b5739cad3006552ea4a3838eeff7a08bf8f269eb5aa0b5133b10b7b",
+   "status": "success",
+   "block": 51075982,
+   "gasUsed": 86250,
+   "effectiveGasPriceGwei": 0.005287125,
+   "l2FeeEth": 4.5601453125e-7,
+   "l1FeeEth": 1.869648922e-9,
+   "totalFeeEth": 4.57884180172e-7,
+   "gasPayer": "0x14fda13953fc30428938e6bf950d036e77214e52",
+   "transfers": [
+    {
+     "from": "0xc7c221236f48b510be4db4511d093bdbf32916e1",
+     "to": "0x2d195b77caef73d917cb215b8f4ac27f95d3b573",
+     "usdc": "0.001"
+    }
+   ]
+  },
+  {
+   "test": "C1-morning",
+   "requestId": "be03cd06-e605-405f-9dc3-3319b990949a",
+   "startedAt": "2026-09-09T08:08:29.023Z",
+   "tx": "0x5282150ae4e47e583b4cdc64b66527adbcc50fd826474e3e7053617162935767",
+   "status": "success",
+   "block": 51075982,
+   "gasUsed": 86242,
+   "effectiveGasPriceGwei": 0.006250005,
+   "l2FeeEth": 5.3901293121e-7,
+   "l1FeeEth": 1.869648922e-9,
+   "totalFeeEth": 5.40882580132e-7,
+   "gasPayer": "0x8f5cb67b49555e614892b7233cfddebfb746e531",
+   "transfers": [
+    {
+     "from": "0xc7c221236f48b510be4db4511d093bdbf32916e1",
+     "to": "0x2d195b77caef73d917cb215b8f4ac27f95d3b573",
+     "usdc": "0.001"
+    }
+   ]
+  },
+  {
+   "test": "C1-midday",
+   "requestId": "20a56f04-90ba-4d7b-810f-9d68f245f575",
+   "startedAt": "2026-09-09T12:00:14.856Z",
+   "tx": "0x4e0721ccf4c7487c4df3957aa9b8cec748329d7f66d3508fdf2135b37d4be8e5",
+   "status": "success",
+   "block": 51082936,
+   "gasUsed": 86242,
+   "effectiveGasPriceGwei": 4.52128261,
+   "l2FeeEth": 0.00038992445485162,
+   "l1FeeEth": 1.881868543e-9,
+   "totalFeeEth": 0.000389926336720163,
+   "gasPayer": "0x97acce27d5069544480bde0f04d9f47d7422a016",
+   "transfers": [
+    {
+     "from": "0xc7c221236f48b510be4db4511d093bdbf32916e1",
+     "to": "0x2d195b77caef73d917cb215b8f4ac27f95d3b573",
+     "usdc": "0.001"
+    }
+   ]
+  },
+  {
+   "test": "C1-midday",
+   "requestId": "28ebe9be-0694-4eb5-9afb-1b87420f03e5",
+   "startedAt": "2026-09-09T12:00:16.854Z",
+   "tx": "0x4152c32ae2bbe181a11dac502ed5c3848c8f06d9ed4eb10c19f85702c8ed4958",
+   "status": "success",
+   "block": 51082936,
+   "gasUsed": 86262,
+   "effectiveGasPriceGwei": 4.52128261,
+   "l2FeeEth": 0.00039001488050382,
+   "l1FeeEth": 1.881868543e-9,
+   "totalFeeEth": 0.000390016762372363,
+   "gasPayer": "0x772003a2e9c2ccc8af956870a37a66f64f8cec38",
+   "transfers": [
+    {
+     "from": "0xc7c221236f48b510be4db4511d093bdbf32916e1",
+     "to": "0x2d195b77caef73d917cb215b8f4ac27f95d3b573",
+     "usdc": "0.001"
+    }
+   ]
+  },
+  {
+   "test": "C1-midday",
+   "requestId": "8445a535-e9f5-436f-a081-28229f1c446b",
+   "startedAt": "2026-09-09T12:00:18.013Z",
+   "tx": "0x14d9397e436fb701cd7a36bbab26a037b61208d11200d6e7f4525bf5fd12c393",
+   "status": "success",
+   "block": 51082937,
+   "gasUsed": 86230,
+   "effectiveGasPriceGwei": 4.668213993,
+   "l2FeeEth": 0.00040254009261639,
+   "l1FeeEth": 1.881868543e-9,
+   "totalFeeEth": 0.000402541974484933,
+   "gasPayer": "0x93f6601151ccb08f333ab4b1cccfb1e188c0be44",
+   "transfers": [
+    {
+     "from": "0xc7c221236f48b510be4db4511d093bdbf32916e1",
+     "to": "0x2d195b77caef73d917cb215b8f4ac27f95d3b573",
+     "usdc": "0.001"
+    }
+   ]
+  },
+  {
+   "test": "C1-midday",
+   "requestId": "4edbc692-cc34-4940-a569-14a1c296374e",
+   "startedAt": "2026-09-09T12:00:19.213Z",
+   "tx": "0xed678ca58a80501b3109ffb6b44f670ffa96f256f1c69a7cc4d0f25a14b45208",
+   "status": "success",
+   "block": 51082938,
+   "gasUsed": 86242,
+   "effectiveGasPriceGwei": 4.804403462,
+   "l2FeeEth": 0.000414341363369804,
+   "l1FeeEth": 1.725081753e-9,
+   "totalFeeEth": 0.000414343088451557,
+   "gasPayer": "0x8f5cb67b49555e614892b7233cfddebfb746e531",
+   "transfers": [
+    {
+     "from": "0xc7c221236f48b510be4db4511d093bdbf32916e1",
+     "to": "0x2d195b77caef73d917cb215b8f4ac27f95d3b573",
+     "usdc": "0.001"
+    }
+   ]
+  },
+  {
+   "test": "C1-midday",
+   "requestId": "a66de74c-89c9-4a0e-9b3c-40a0174149fe",
+   "startedAt": "2026-09-09T12:00:20.639Z",
+   "tx": "0xbebe004688872d533b71b94c9f43a0e8d1599f7da8ee56f83391676da0600d83",
+   "status": "success",
+   "block": 51082938,
+   "gasUsed": 86242,
+   "effectiveGasPriceGwei": 4.804403462,
+   "l2FeeEth": 0.000414341363369804,
+   "l1FeeEth": 1.731468798e-9,
+   "totalFeeEth": 0.000414343094838602,
+   "gasPayer": "0x68a96f41ff1e9f2e7b591a931a4ad224e7c07863",
+   "transfers": [
+    {
+     "from": "0xc7c221236f48b510be4db4511d093bdbf32916e1",
+     "to": "0x2d195b77caef73d917cb215b8f4ac27f95d3b573",
+     "usdc": "0.001"
+    }
+   ]
+  },
+  {
+   "test": "C1-midday",
+   "requestId": "5a2a5c50-3d00-4113-ad88-f998a2c0d356",
+   "startedAt": "2026-09-09T12:00:21.683Z",
+   "tx": "0xe08012c9c863499ef8489835cd31cb674b36cf0c3a61b60e7c3c8667c73f097f",
+   "status": "success",
+   "block": 51082939,
+   "gasUsed": 86242,
+   "effectiveGasPriceGwei": 4.935364754,
+   "l2FeeEth": 0.000425635727114468,
+   "l1FeeEth": 1.731468798e-9,
+   "totalFeeEth": 0.000425637458583266,
+   "gasPayer": "0x67b9ce703d9ce658d7c4ac3c289cea112fe662af",
+   "transfers": [
+    {
+     "from": "0xc7c221236f48b510be4db4511d093bdbf32916e1",
+     "to": "0x2d195b77caef73d917cb215b8f4ac27f95d3b573",
+     "usdc": "0.001"
+    }
+   ]
+  },
+  {
+   "test": "C1-midday",
+   "requestId": "0b0b359a-1fdb-43fb-ba48-afb54cd149cd",
+   "startedAt": "2026-09-09T12:00:22.792Z",
+   "tx": "0xed43895d2912fd51ae1e8257908811e54894c1544c6543d6fac97ea9fe8bae79",
+   "status": "success",
+   "block": 51082939,
+   "gasUsed": 86250,
+   "effectiveGasPriceGwei": 4.935364754,
+   "l2FeeEth": 0.0004256752100325,
+   "l1FeeEth": 1.731468798e-9,
+   "totalFeeEth": 0.000425676941501298,
+   "gasPayer": "0x93f6601151ccb08f333ab4b1cccfb1e188c0be44",
+   "transfers": [
+    {
+     "from": "0xc7c221236f48b510be4db4511d093bdbf32916e1",
+     "to": "0x2d195b77caef73d917cb215b8f4ac27f95d3b573",
+     "usdc": "0.001"
+    }
+   ]
+  },
+  {
+   "test": "C1-midday",
+   "requestId": "68c22077-de5b-4839-95b8-1dae7838efbe",
+   "startedAt": "2026-09-09T12:00:23.925Z",
+   "tx": "0xf2b50cf60897305793e386f597a2f3144230b60d6ec00a7ffc70313ebbf7f973",
+   "status": "success",
+   "block": 51082940,
+   "gasUsed": 86242,
+   "effectiveGasPriceGwei": 5.064053145,
+   "l2FeeEth": 0.00043673407133109,
+   "l1FeeEth": 1.731468798e-9,
+   "totalFeeEth": 0.000436735802799888,
+   "gasPayer": "0x625d8a65134079f8faaac39a7947c73d93c6ac39",
+   "transfers": [
+    {
+     "from": "0xc7c221236f48b510be4db4511d093bdbf32916e1",
+     "to": "0x2d195b77caef73d917cb215b8f4ac27f95d3b573",
+     "usdc": "0.001"
+    }
+   ]
+  },
+  {
+   "test": "C1-midday",
+   "requestId": "9eba1970-e984-4c06-a49d-68036fdae74a",
+   "startedAt": "2026-09-09T12:00:25.049Z",
+   "tx": "0x952587774c9b001131172fb7a580d269b6e28db42a7090f4de2f12bc1e9e02c8",
+   "status": "success",
+   "block": 51082941,
+   "gasUsed": 86250,
+   "effectiveGasPriceGwei": 5.175489053,
+   "l2FeeEth": 0.00044638593082125,
+   "l1FeeEth": 1.744242889e-9,
+   "totalFeeEth": 0.000446387675064139,
+   "gasPayer": "0xa32ccda98ba7529705a059bd2d213da8de10d101",
+   "transfers": [
+    {
+     "from": "0xc7c221236f48b510be4db4511d093bdbf32916e1",
+     "to": "0x2d195b77caef73d917cb215b8f4ac27f95d3b573",
+     "usdc": "0.001"
+    }
+   ]
+  },
+  {
+   "test": "C1-midday",
+   "requestId": "9533783e-e0df-4d6c-9043-362a696ba7f4",
+   "startedAt": "2026-09-09T12:00:26.771Z",
+   "tx": "0x4b827e135ad8dcfe47d4c619bc1c7dce231bcfd35910f430a25511d335978d81",
+   "status": "success",
+   "block": 51082941,
+   "gasUsed": 86242,
+   "effectiveGasPriceGwei": 5.175489053,
+   "l2FeeEth": 0.000446344526908826,
+   "l1FeeEth": 1.731468798e-9,
+   "totalFeeEth": 0.000446346258377624,
+   "gasPayer": "0x4c934c63c786157fefd990945b25ea60a0fb0205",
+   "transfers": [
+    {
+     "from": "0xc7c221236f48b510be4db4511d093bdbf32916e1",
+     "to": "0x2d195b77caef73d917cb215b8f4ac27f95d3b573",
+     "usdc": "0.001"
+    }
+   ]
+  },
+  {
+   "test": "C1-midday",
+   "requestId": "52522be3-040d-4782-98f5-e050b21efa2e",
+   "startedAt": "2026-09-09T12:00:27.900Z",
+   "tx": "0x0378520dee703cdb5fc6f203ce10abbe1c1ab9cd8d8aa785d22b2c0931f91bd0",
+   "status": "success",
+   "block": 51082942,
+   "gasUsed": 86262,
+   "effectiveGasPriceGwei": 5.284098872,
+   "l2FeeEth": 0.000455816936896464,
+   "l1FeeEth": 1.731468798e-9,
+   "totalFeeEth": 0.000455818668365262,
+   "gasPayer": "0x64cc42b1ce598e3abcfbb64df4688521ddbf1f0a",
+   "transfers": [
+    {
+     "from": "0xc7c221236f48b510be4db4511d093bdbf32916e1",
+     "to": "0x2d195b77caef73d917cb215b8f4ac27f95d3b573",
+     "usdc": "0.001"
+    }
+   ]
+  },
+  {
+   "test": "C1-midday",
+   "requestId": "9728ed1d-0750-42bf-ae89-acf162b0b37e",
+   "startedAt": "2026-09-09T12:00:28.942Z",
+   "tx": "0x5f6df93b20ab7d0f9a85075e1dcb270f3e840e3e868199a71f021f79d6b0a5f9",
+   "status": "success",
+   "block": 51082943,
+   "gasUsed": 86242,
+   "effectiveGasPriceGwei": 5.398778816,
+   "l2FeeEth": 0.000465601482649472,
+   "l1FeeEth": 1.731468798e-9,
+   "totalFeeEth": 0.00046560321411827,
+   "gasPayer": "0x14fda13953fc30428938e6bf950d036e77214e52",
+   "transfers": [
+    {
+     "from": "0xc7c221236f48b510be4db4511d093bdbf32916e1",
+     "to": "0x2d195b77caef73d917cb215b8f4ac27f95d3b573",
+     "usdc": "0.001"
+    }
+   ]
+  },
+  {
+   "test": "C1-midday",
+   "requestId": "12bbf0a1-5a6c-4640-a894-e97a81bb9bbe",
+   "startedAt": "2026-09-09T12:00:30.496Z",
+   "tx": "0x104682b9b9621b9744d9f4639ec26439821e59474d075817def26e709bc694b3",
+   "status": "success",
+   "block": 51082943,
+   "gasUsed": 86262,
+   "effectiveGasPriceGwei": 5.398778816,
+   "l2FeeEth": 0.000465709458225792,
+   "l1FeeEth": 1.731468798e-9,
+   "totalFeeEth": 0.00046571118969459,
+   "gasPayer": "0x68efafe862d89ce66dd3d7b07d5a3747a0871164",
+   "transfers": [
+    {
+     "from": "0xc7c221236f48b510be4db4511d093bdbf32916e1",
+     "to": "0x2d195b77caef73d917cb215b8f4ac27f95d3b573",
+     "usdc": "0.001"
+    }
+   ]
+  },
+  {
+   "test": "C1-midday",
+   "requestId": "269fd885-c342-48b9-96d2-e34c722f3cda",
+   "startedAt": "2026-09-09T12:00:31.783Z",
+   "tx": "0xce03c288cce6e8d9317830101ac2721b08ead970c07da1883279cf9a2d747c4b",
+   "status": "success",
+   "block": 51082944,
+   "gasUsed": 86262,
+   "effectiveGasPriceGwei": 5.515827073,
+   "l2FeeEth": 0.000475806274971126,
+   "l1FeeEth": 1.766483727e-9,
+   "totalFeeEth": 0.000475808041454853,
+   "gasPayer": "0x772003a2e9c2ccc8af956870a37a66f64f8cec38",
+   "transfers": [
+    {
+     "from": "0xc7c221236f48b510be4db4511d093bdbf32916e1",
+     "to": "0x2d195b77caef73d917cb215b8f4ac27f95d3b573",
+     "usdc": "0.001"
+    }
+   ]
+  },
+  {
+   "test": "C1-midday",
+   "requestId": "0c9a7d9a-f424-4b5d-b8d0-083cf6bdebb8",
+   "startedAt": "2026-09-09T12:00:32.867Z",
+   "tx": "0x5e2fe3ebf9e0bb1b3e8e491f0cef4b1cd1298f1c6ac4a6542b4850d9eceb83c5",
+   "status": "success",
+   "block": 51082944,
+   "gasUsed": 86262,
+   "effectiveGasPriceGwei": 5.515827073,
+   "l2FeeEth": 0.000475806274971126,
+   "l1FeeEth": 1.766483727e-9,
+   "totalFeeEth": 0.000475808041454853,
+   "gasPayer": "0xe72f0af4cf41356d433723547f1412ca27fbb1b8",
+   "transfers": [
+    {
+     "from": "0xc7c221236f48b510be4db4511d093bdbf32916e1",
+     "to": "0x2d195b77caef73d917cb215b8f4ac27f95d3b573",
+     "usdc": "0.001"
+    }
+   ]
+  },
+  {
+   "test": "C1-midday",
+   "requestId": "b7382aa3-cb62-4cd5-9c1c-fb1c7ef0dc1d",
+   "startedAt": "2026-09-09T12:00:33.894Z",
+   "tx": "0x604b6a8526edb815de377da1bd726fc130e4b74bdf54893a3ee26418e89c520b",
+   "status": "success",
+   "block": 51082945,
+   "gasUsed": 86230,
+   "effectiveGasPriceGwei": 5.633492378,
+   "l2FeeEth": 0.00048577604775494,
+   "l1FeeEth": 1.766483727e-9,
+   "totalFeeEth": 0.000485777814238667,
+   "gasPayer": "0xe72f0af4cf41356d433723547f1412ca27fbb1b8",
+   "transfers": [
+    {
+     "from": "0xc7c221236f48b510be4db4511d093bdbf32916e1",
+     "to": "0x2d195b77caef73d917cb215b8f4ac27f95d3b573",
+     "usdc": "0.001"
+    }
+   ]
+  },
+  {
+   "test": "C1-midday",
+   "requestId": "27c53d12-b13f-424d-a76a-b72c4c8b0ac4",
+   "startedAt": "2026-09-09T12:00:34.901Z",
+   "tx": "0x2feed7f0b2dce7c2fbd3662cb65e2224d895cef750c3eb90a9bd0dceaa6d66e8",
+   "status": "success",
+   "block": 51082945,
+   "gasUsed": 86242,
+   "effectiveGasPriceGwei": 5.633492378,
+   "l2FeeEth": 0.000485843649663476,
+   "l1FeeEth": 1.766483727e-9,
+   "totalFeeEth": 0.000485845416147203,
+   "gasPayer": "0xca5e87f82b3fa093800e6ad67d621a427d79c70d",
+   "transfers": [
+    {
+     "from": "0xc7c221236f48b510be4db4511d093bdbf32916e1",
+     "to": "0x2d195b77caef73d917cb215b8f4ac27f95d3b573",
+     "usdc": "0.001"
+    }
+   ]
+  },
+  {
+   "test": "C1-midday",
+   "requestId": "293eb9e0-862d-421c-9a4e-68e6b4670170",
+   "startedAt": "2026-09-09T12:00:36.074Z",
+   "tx": "0xe06408a9af04e9faff756a46285524e1b0362fae29e670a536a3c6870c437c3e",
+   "status": "success",
+   "block": 51082946,
+   "gasUsed": 86242,
+   "effectiveGasPriceGwei": 5.753811994,
+   "l2FeeEth": 0.000496220253986548,
+   "l1FeeEth": 1.766483727e-9,
+   "totalFeeEth": 0.000496222020470275,
+   "gasPayer": "0x4c934c63c786157fefd990945b25ea60a0fb0205",
+   "transfers": [
+    {
+     "from": "0xc7c221236f48b510be4db4511d093bdbf32916e1",
+     "to": "0x2d195b77caef73d917cb215b8f4ac27f95d3b573",
+     "usdc": "0.001"
+    }
+   ]
+  },
+  {
+   "test": "C1-midday",
+   "requestId": "037aa091-954c-4598-a5c1-e69d323a772d",
+   "startedAt": "2026-09-09T12:00:37.166Z",
+   "tx": "0x63d3223ea1e42a93f09612291d9becf596b3ee2f9a71724cc15460c09de6a696",
+   "status": "success",
+   "block": 51082947,
+   "gasUsed": 86242,
+   "effectiveGasPriceGwei": 5.864278275,
+   "l2FeeEth": 0.00050574708699255,
+   "l1FeeEth": 1.766483727e-9,
+   "totalFeeEth": 0.000505748853476277,
+   "gasPayer": "0x4c934c63c786157fefd990945b25ea60a0fb0205",
+   "transfers": [
+    {
+     "from": "0xc7c221236f48b510be4db4511d093bdbf32916e1",
+     "to": "0x2d195b77caef73d917cb215b8f4ac27f95d3b573",
+     "usdc": "0.001"
+    }
+   ]
+  },
+  {
+   "test": "C1-midday",
+   "requestId": "00c1ef4b-7046-4d57-b534-d8438035d81b",
+   "startedAt": "2026-09-09T12:00:38.433Z",
+   "tx": "0x8aa45bdb3dd146af7dfe8b04a97e576d6a84adb1ca5ddb3721c353d6877f00d5",
+   "status": "success",
+   "block": 51082947,
+   "gasUsed": 86262,
+   "effectiveGasPriceGwei": 5.864278275,
+   "l2FeeEth": 0.00050586437255805,
+   "l1FeeEth": 1.766483727e-9,
+   "totalFeeEth": 0.000505866139041777,
+   "gasPayer": "0x64cc42b1ce598e3abcfbb64df4688521ddbf1f0a",
+   "transfers": [
+    {
+     "from": "0xc7c221236f48b510be4db4511d093bdbf32916e1",
+     "to": "0x2d195b77caef73d917cb215b8f4ac27f95d3b573",
+     "usdc": "0.001"
+    }
+   ]
+  }
+ ]
+}

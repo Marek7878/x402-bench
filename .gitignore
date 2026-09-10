@@ -1,0 +1,26 @@
+# secrets — never commit keys or wallet material
+.env
+.env.*
+!.env.example
+.dev.vars
+.dev.vars.*
+!.dev.vars.example
+*.key
+*.pem
+
+# dependencies and build output
+node_modules/
+dist/
+.wrangler/
+*.tsbuildinfo
+
+# benchmark output that is not archived
+results/pending/
+results/seller-tail-suiteB.jsonl
+results/*.log
+results/report-2026-09-0[78].md
+
+# OS / editor
+.DS_Store
+.idea/
+.vscode/

@@ -1,0 +1,68 @@
+{
+  "$schema": "node_modules/wrangler/config-schema.json",
+  "name": "x402-bench-seller",
+  // If `wrangler whoami` lists more than one account, set CLOUDFLARE_ACCOUNT_ID in the environment.
+  "main": "src/index.ts",
+  "compatibility_date": "2026-09-01",
+  // nodejs_compat: @x402/hono buffers the response with Buffer before settlement.
+  "compatibility_flags": ["nodejs_compat"],
+  "observability": {
+    "enabled": true,
+    "logs": {
+      "enabled": true,
+      "invocation_logs": true
+    }
+  },
+  // Suite B5: the Workers Paid default is 10,000 subrequests per invocation.
+  // Each paid request makes at least two facilitator subrequests (verify, settle)
+  // plus one /supported call on cold start. Lower this deliberately to find the
+  // point where the plan limit binds before the facilitator does, e.g. 3.
+  // "limits": { "subrequests": 3 },
+  "vars": {
+    "FACILITATOR_URL": "https://x402.org/facilitator",
+    // Which facilitator to use: "public" (FACILITATOR_URL) or "cdp" (api.cdp.coinbase.com,
+    // authed with a per-call Ed25519 JWT from the CDP_API_KEY_* secrets). Switching is deliberate:
+    // which facilitator produced a number is the biggest caveat on Suite B and E results.
+    "FACILITATOR_PROVIDER": "public",
+    // Per-call timeout for verify/settle/supported. The SDK default is 30 s; keep this short so a
+    // hung facilitator shows up as a fast FacilitatorTimeoutError in the record, not a stall.
+    "FACILITATOR_TIMEOUT_MS": "10000",
+    "NETWORK": "eip155:84532",
+    "EXACT_PRICE": "$0.001",
+    "EXACT_MAX_TIMEOUT_SECONDS": "60",
+    "UPTO_MAX_PRICE": "$0.01",
+    // Suite D: the upto Permit2 deadline is now + maxTimeoutSeconds. 172800 s = 48 h.
+    "UPTO_MAX_TIMEOUT_SECONDS": "172800",
+    "SYNC_FACILITATOR_ON_START": "true",
+    // Allows the x-bench-fault header (Suite E). Off for the deployed Worker so latency and load
+    // runs are clean; .dev.vars turns it on for local wrangler dev, where Suite E runs.
+    "BENCH_FAULTS_ENABLED": "false"
+  },
+  // Secrets, set per environment and never committed:
+  //   PAY_TO                  seller wallet address (locally: .dev.vars)
+  //   FACILITATOR_AUTH_HEADER optional, e.g. "Authorization" (CDP facilitator, later)
+  //   FACILITATOR_AUTH_VALUE  optional, e.g. "Bearer <token>"
+  // Suite C1/C2, G1, I: a SEPARATE Worker on Base mainnet through CDP. Its own name and its own
+  // secrets (PAY_TO is the off-ramp account's Base USDC address), so the testnet Worker serving the
+  // Suite D settlers is never touched. Deploy with `wrangler deploy --env mainnet`.
+  "env": {
+    "mainnet": {
+      "name": "x402-bench-seller-mainnet",
+      "vars": {
+        "FACILITATOR_URL": "https://x402.org/facilitator",
+        "FACILITATOR_PROVIDER": "cdp",
+        "FACILITATOR_TIMEOUT_MS": "10000",
+        "NETWORK": "eip155:8453",
+        "EXACT_PRICE": "$0.001",
+        "EXACT_MAX_TIMEOUT_SECONDS": "60",
+        "UPTO_MAX_PRICE": "$0.01",
+        "UPTO_MAX_TIMEOUT_SECONDS": "172800",
+        "SYNC_FACILITATOR_ON_START": "true",
+        "BENCH_FAULTS_ENABLED": "false"
+      }
+    }
+  },
+  "dev": {
+    "port": 8787
+  }
+}

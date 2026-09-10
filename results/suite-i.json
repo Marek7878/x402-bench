@@ -1,0 +1,17 @@
+{
+ "performed by": "project owner, retail Coinbase account, Convert USDC → EUR",
+ "sale time": "2026-09-08 16:21 UTC (18:21 Amsterdam); started 16:20",
+ "USDC sold": "5.66311",
+ "EUR received": "4.84",
+ "rate quoted by Coinbase": "0.8547 EUR/USDC",
+ "effective rate (EUR received ÷ USDC sold)": "0.85465 EUR/USDC",
+ "Coinbase Exchange USDC-EUR mid at 16:21 UTC": "0.8606 (1-min candle 0.8605–0.8607)",
+ "ECB USD/EUR reference, 8 Sep": "0.86103 (USDC/USD spot 1.0000)",
+ "fee lines shown by Coinbase": "spread 0.5 %; Coinbase fee €0.00 (funds stay on platform)",
+ "total cost vs Exchange mid (I2)": "€0.0337 on €4.8737 = **0.69 %**",
+ "total cost vs ECB reference": "0.74 %",
+ "time to spendable EUR on the exchange (I1)": "≈ 1 min — EUR shown available at 16:22 UTC, no pending state",
+ "time to bank account": "not measured — the EUR was left on Coinbase; a SEPA cash-out (typically same day to 2 business days) would add to this",
+ "receipt data Coinbase gives": "activity entry: 'converted 4.84 EUR', 8 Sep 2026 6:21 PM, USDC 5.66, EUR 4.84, subtotal 4.84, fee 0.00 — no rate, no order id, no reference to any on-chain hash",
+ "preview vs final": "identical"
+}

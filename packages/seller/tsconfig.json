@@ -1,0 +1,10 @@
+{
+  "extends": "../../tsconfig.base.json",
+  "compilerOptions": {
+    "lib": ["ES2022"],
+    // node: for the node:async_hooks types used by faults.ts. Available at runtime
+    // because wrangler.jsonc sets the nodejs_compat compatibility flag.
+    "types": ["@cloudflare/workers-types", "node"]
+  },
+  "include": ["src/**/*.ts"]
+}
