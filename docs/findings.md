@@ -208,7 +208,7 @@ and confirmed against the block headers via `https://mainnet.base.org`:
 |---|---|---|---|
 | 08:08 morning | 0.005 gwei | ≈ $0.0012 | ≈ 1× |
 | 16:02 evening (8 Sep) | 0.019 gwei | ≈ $0.0041 | 4× |
-| 12:00 midday | 4.5 → 5.9 gwei during the batch, 8.2 gwei at 12:05 | ≈ $0.39–0.51 | 400–500× |
+| 12:00 midday | 4.5 → 5.9 gwei during the batch, 8.2 gwei at 12:05 | ≈ $0.98–1.27 (median $1.14) | ≈ 1,000–1,300× |
 
 Blocks at 12:00 carried 340M gas and 1,600 transactions against 41M and 293 at 08:08 — genuine congestion, not
 CDP overbidding (the receipts' effective price tracks the block base fee). Settle latency did not move (p50 829 ms
@@ -565,7 +565,7 @@ measure its own CPU time. Use the Workers observability dashboard for H2.
       paid by CDP; `pnpm gas` reads receipts into `results/mainnet-gas.json`.** **`C1-morning` done 9 Sep 08:08 UTC
       (late — see the VM section): 20/20, settle p50 697 ms, same gas (86,242) but fee ≈ $0.0012 against the evening's
       $0.0041 — gas price, not gas used, is what moves with the hour.** **`C1-midday` done 9 Sep 12:00 UTC: 20/20,
-      settle p50 829 ms, but fee ≈ $0.39–0.51 per settlement — a Base gas spike (see the finding below). C1 complete:
+      settle p50 829 ms, but fee ≈ $0.98–1.27 per settlement — a Base gas spike (see the finding below). C1 complete:
       61/61 over three times of day, added latency p95 1697 ms (n=60).** C3: the floor is one atomic unit,
       $0.000001, and it settles; **anything smaller truncates to zero silently and still delivers** (see the
       finding below). C4: the facilitator pays settlement gas under both schemes, every time — the buyer paid

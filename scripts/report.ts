@@ -780,7 +780,7 @@ function suiteC1Mainnet(records: BuyerRecord[]): string[] {
       `${gasRows.length ? usd(percentile(gasRows.map((x) => x.totalFeeEth), 50) ?? 0) : "–"}). Gas *used* is constant at ~86,200 per` +
       " settlement; what moves is Base's block base fee. The morning batch (08:08 UTC) paid 0.005 gwei, the evening one" +
       " (16:02) 0.019 gwei, and the midday batch (12:00) landed in a congestion window — block base fee 4.5 gwei rising" +
-      " to 8.2 gwei six minutes later, blocks at 340M gas — so CDP paid **≈ $0.39–0.51 per $0.001 sale, 400–500× its own" +
+      " to 8.2 gwei six minutes later, blocks at 340M gas — so CDP paid **≈ $0.98–1.27 per $0.001 sale (median $1.14), roughly 1,000–1,300× its own" +
       " fee**, for about 20 s of settlements. The morning price is close to CDP's fee; at busy hours CDP is subsidising" +
       " every sale heavily, and a facilitator that passed gas through would make sub-cent sales impossible in those windows." +
       " L1 data fees are < 1 % of the total; Base's L2 execution is the whole cost. A $1 item therefore carries a" +

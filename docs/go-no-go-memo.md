@@ -90,7 +90,7 @@ has not run.
 
 ## What we still do not know
 
-- **Mainnet cost (Suite C1/C2) and money out (Suite I).** Now measured: gas $0.001–0.51 per settlement
+- **Mainnet cost (Suite C1/C2) and money out (Suite I).** Now measured: gas $0.001–1.27 per settlement
   depending on the hour, all paid by CDP (next bullet), facilitator fee $0.001, USDC→EUR ≈ 0.7 % all-in and about a minute to spendable EUR. Still
   open: the bank leg's timing, and the POS reconciliation gap, which is a design task (mandatory payment
   id) rather than a measurement. CDP's own pricing is known (1,000
@@ -101,9 +101,9 @@ has not run.
 - ~~**CDP on mainnet.**~~ Done 8–9 Sep, three times of day: 61 real $0.001 payments through a separate
   mainnet Worker, 61 delivered, every USDC transfer verified on chain to the seller address, gas paid by CDP
   from 20 wallets. Gas *used* is constant; the gas *price* is not. Per settlement CDP paid ≈ $0.001 in the
-  morning batch, ≈ $0.004 in the evening one, and **≈ $0.39–0.51 in the midday batch**, which landed in a
+  morning batch, ≈ $0.004 in the evening one, and **≈ $0.98–1.27 in the midday batch (median $1.14)**, which landed in a
   Base congestion window (block base fee 4.5–8.2 gwei against 0.005 gwei four hours earlier). Against its
-  flat $0.001 fee CDP absorbed roughly 500× its revenue for those 20 s. For the build this cuts two ways: a
+  flat $0.001 fee CDP absorbed roughly 1,000× its revenue for those 20 s. For the build this cuts two ways: a
   facilitator that absorbs gas makes sub-cent sales viable at any hour; one that passes gas through would
   make them impossible in such windows. Ask CDP whether the flat fee is contractual before pricing on it.
 - **Latency outside Europe (A5)** — every request came from the `AMS` colo. **WAF and rate-limiting
